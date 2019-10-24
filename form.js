@@ -10,7 +10,8 @@ export async function main(event, context) {
       userId: event.requestContext.identity.cognitoIdentityId,
       noteId: uuid.v1(),
       content: data.content,
-      attachment: data.attachment,
+      attachment1: data.attachment1,
+      attachment2: data.attachment2,
       createdAt: Date.now()
     }
   };
