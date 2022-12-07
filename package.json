@@ -21,7 +21,7 @@
     "uuid": "^3.3.3"
   },
   "dependencies": {
-    "serverless": "^1.55.0",
+    "serverless": "^3.25.1",
     "stripe": "^7.10.0"
   }
 }
